@@ -1,0 +1,144 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Aspen Academy · The One-Pager</title>
+<meta name="description" content="Aspen Academy has the best rating in Wentzville and almost no one can find it. Here's the fix, and a fair, no-contract offer from Fight Forward Digital Marketing." />
+<meta name="robots" content="noindex" />
+<link rel="icon" href="https://aspenacademymo.com/uplift-data/images/aspen-daycare-logo.png" />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600;9..144,700&family=Nunito+Sans:opsz,wght@6..12,400;6..12,600;6..12,800&display=swap" rel="stylesheet" />
+<style>
+:root{
+  --green:#2e7d4f; --green-d:#1f5c39; --gold:#f2a93b; --gold-d:#c9871f;
+  --cream:#fbf7ef; --white:#fff; --ink:#22302b; --slate:#556059; --line:#e7ded0;
+  --sans:"Nunito Sans",system-ui,-apple-system,Segoe UI,Roboto,sans-serif;
+  --disp:"Fraunces",Georgia,"Times New Roman",serif;
+}
+*{box-sizing:border-box}
+body{margin:0;background:var(--cream);color:var(--ink);font-family:var(--sans);line-height:1.55;-webkit-font-smoothing:antialiased}
+h1,h2,h3{font-family:var(--disp);font-weight:600;line-height:1.1;text-wrap:balance;margin:0}
+img{max-width:100%;display:block}
+a{color:inherit}
+.wrap{max-width:1000px;margin:0 auto;padding-inline:22px}
+.eyebrow{text-transform:uppercase;letter-spacing:.16em;font-weight:800;font-size:.74rem;color:var(--gold-d);margin:0 0 .7rem}
+
+/* top strip */
+.topbar{background:var(--ink);color:#dfe7e2;font-size:.8rem}
+.topbar .wrap{display:flex;justify-content:space-between;gap:12px;padding-block:9px;flex-wrap:wrap}
+.topbar strong{color:#fff}
+
+/* hero */
+.hero{color:#fff;background:linear-gradient(160deg,rgba(31,92,57,.92),rgba(34,48,43,.9)),url('https://aspenacademymo.com/uplift-data/images/banners/now-open.jpg') center/cover no-repeat}
+.hero .wrap{padding-block:clamp(44px,8vw,80px)}
+.badge{display:inline-flex;align-items:center;gap:.5rem;background:rgba(255,255,255,.15);border:1px solid rgba(255,255,255,.32);border-radius:999px;padding:.4rem .9rem;font-weight:800;font-size:.9rem;margin-bottom:16px}
+.badge .s{color:#ffd15a;letter-spacing:2px}
+.hero h1{color:#fff;font-size:clamp(2rem,5vw,3.3rem);font-weight:700;max-width:18ch}
+.hero p{color:#eaf2ec;font-size:clamp(1.05rem,2.2vw,1.3rem);max-width:52ch;margin:.7rem 0 0}
+.hi{color:#ffd98a}
+
+/* situation strip */
+.sit{background:var(--white);border-bottom:1px solid var(--line)}
+.sit .wrap{display:grid;grid-template-columns:1fr;gap:0;padding-block:0}
+@media(min-width:680px){.sit .wrap{grid-template-columns:repeat(3,1fr)}}
+.cellstat{padding:24px 8px;text-align:center;border-top:1px solid var(--line)}
+@media(min-width:680px){.cellstat{border-top:0;border-left:1px solid var(--line)}.cellstat:first-child{border-left:0}}
+.cellstat .n{font-family:var(--disp);font-weight:700;font-size:2.3rem;line-height:1}
+.cellstat .n.good{color:var(--green)}.cellstat .n.bad{color:var(--gold-d)}
+.cellstat .l{color:var(--slate);font-weight:600;font-size:.92rem;margin-top:.35rem}
+
+/* fix line */
+.fix{padding-block:clamp(38px,6vw,62px);text-align:center}
+.fix h2{font-size:clamp(1.5rem,3.4vw,2.3rem);max-width:22ch;margin:0 auto .5rem}
+.fix p{color:var(--slate);font-size:1.12rem;max-width:60ch;margin:0 auto}
+
+/* offer */
+.offer{background:linear-gradient(160deg,var(--green-d),var(--green));color:#fff;padding-block:clamp(40px,7vw,72px)}
+.offer h2{color:#fff;font-size:clamp(1.6rem,3.6vw,2.4rem);max-width:20ch}
+.offer .sub{color:#e7f1ea;font-size:1.08rem;max-width:56ch;margin:.5rem 0 26px}
+.deal{display:grid;grid-template-columns:1fr;gap:22px;align-items:center}
+@media(min-width:820px){.deal{grid-template-columns:1.15fr .85fr}}
+.incl{list-style:none;margin:0;padding:0;display:grid;gap:11px}
+.incl li{padding-left:30px;position:relative;font-size:1.05rem}
+.incl li::before{content:"✓";position:absolute;left:0;color:#ffd98a;font-weight:800;font-size:1.1rem}
+.incl b{color:#fff}
+.pricebox{background:rgba(255,255,255,.12);border:1px solid rgba(255,255,255,.28);border-radius:20px;padding:26px;text-align:center}
+.pricebox .k{text-transform:uppercase;letter-spacing:.1em;font-weight:800;font-size:.72rem;color:#ffd98a}
+.pricebox .big{font-family:var(--disp);font-weight:700;font-size:3rem;line-height:1;margin:.25rem 0}
+.pricebox .small{color:#e7f1ea;font-weight:700}
+.pricebox .save{margin-top:14px;background:var(--gold);color:var(--ink);font-weight:800;border-radius:999px;padding:.5rem 1rem;display:inline-block}
+.pricebox .alt{color:#cfe3d7;font-size:.85rem;margin-top:12px}
+
+/* cta */
+.cta{padding-block:clamp(38px,6vw,64px);text-align:center}
+.btn{display:inline-flex;align-items:center;gap:.5rem;font-weight:800;text-decoration:none;padding:1rem 1.8rem;border-radius:999px;font-size:1.08rem}
+.btn-gold{background:var(--gold);color:var(--ink)}
+.btn-line{border:2px solid var(--green);color:var(--green-d);background:transparent}
+.cta-row{display:flex;flex-wrap:wrap;gap:14px;justify-content:center;margin-top:18px}
+.deeper{margin-top:26px;font-size:1rem}
+.deeper a{color:var(--green-d);font-weight:800}
+.foot{background:var(--ink);color:#9fb0aa;font-size:.8rem;text-align:center;padding-block:22px}
+.foot img{height:30px;width:auto;margin:0 auto 8px;opacity:.9;filter:brightness(0) invert(1)}
+</style>
+</head>
+<body>
+<div class="topbar"><div class="wrap"><span>Prepared for <strong>Madeline &amp; the Aspen Academy team</strong></span><span>by <strong>Fight Forward Digital Marketing</strong></span></div></div>
+
+<header class="hero"><div class="wrap">
+  <div class="badge"><span class="s">★★★★★</span> 5.0 on Google — the highest in Wentzville</div>
+  <h1>You built the best daycare in Wentzville. Now let's make sure parents can find it.</h1>
+  <p>Madeline, families who find Aspen give you <span class="hi">five stars, every time.</span> The only thing missing is being seen. Here's the whole story on one page.</p>
+</div></header>
+
+<section class="sit"><div class="wrap">
+  <div class="cellstat"><div class="n good">5.0★</div><div class="l">Your Google rating — best of any Wentzville daycare</div></div>
+  <div class="cellstat"><div class="n bad">#12</div><div class="l">Where you sit on the map — behind lower-rated centers</div></div>
+  <div class="cellstat"><div class="n bad">4</div><div class="l">Google reviews — competitors have 21 to 66</div></div>
+</div></section>
+
+<section class="fix"><div class="wrap">
+  <p class="eyebrow">The fix is simple</p>
+  <h2>Great rating. Too few people see it.</h2>
+  <p>Google shows the daycares with the most reviews first. Your care already earns five stars — we get you seen: a new website, your Google profile claimed and climbing, and a steady stream of reviews from your happy families. That's how #12 becomes top 3.</p>
+</div></section>
+
+<section class="offer"><div class="wrap">
+  <p class="eyebrow" style="color:#ffd98a">A fair offer — no contract</p>
+  <h2>Name your own price. Everything included.</h2>
+  <p class="sub">No lock-in, no jargon, no games. Start at $400 a month and you get all of it — plus two things other agencies charge extra for, or don't offer at all.</p>
+  <div class="deal">
+    <ul class="incl">
+      <li><b>A free 24/7 voice agent</b> — answers every parent's call and books tours, even while you're with the kids</li>
+      <li><b>Unlimited tech support</b> — your computers, wifi, cameras and check-in, all handled, no per-call fees</li>
+      <li><b>Get found on Google</b> + a review engine that grows your 5-star count</li>
+      <li><b>A brand-new website</b> built to turn visitors into tours (already built for you)</li>
+      <li><b>Plain-English reporting</b> — calls, tours and reviews, not vanity numbers</li>
+    </ul>
+    <div class="pricebox">
+      <div class="k">Best value · pay yearly</div>
+      <div class="big">$4,000<span style="font-size:1rem;color:#e7f1ea">/yr</span></div>
+      <div class="small">2 months free + website included free</div>
+      <div class="save">Save $2,300 in year one</div>
+      <div class="alt">Prefer monthly? <b style="color:#fff">$400/mo</b>, no contract.<br/>Website on its own: $1,500, or $125/mo for a year.</div>
+    </div>
+  </div>
+</div></section>
+
+<section class="cta"><div class="wrap">
+  <p class="eyebrow">Let's begin</p>
+  <h2 style="font-size:clamp(1.5rem,3.4vw,2.2rem);max-width:22ch;margin:0 auto .4rem">Let's get Aspen the attention it's already earned.</h2>
+  <div class="cta-row">
+    <a class="btn btn-gold" href="tel:+16363982990">Call to get started</a>
+    <a class="btn btn-line" href="https://fightforwarddigital.com">Visit Fight Forward</a>
+  </div>
+  <p class="deeper">Want the full picture — the live Google data, what other agencies charge, and what real owners say? <a href="full/">See the full breakdown →</a></p>
+</div></section>
+
+<footer class="foot"><div class="wrap">
+  <img src="https://aspenacademymo.com/uplift-data/images/aspen-daycare-logo.png" alt="Aspen Academy" />
+  <p>Prepared for Aspen Academy · 740 Welker Parkway, Wentzville, MO 63385 · by Fight Forward Digital Marketing<br/>Figures are live Google data, September 2026, and change over time.</p>
+</div></footer>
+</body>
+</html>
