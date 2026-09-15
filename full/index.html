@@ -1,0 +1,408 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Aspen Academy Growth Plan</title>
+<meta name="description" content="A plain-English growth plan for Aspen Academy: where you stand today, what most agencies charge and claim, and a fair, no-contract offer from Fight Forward Digital Marketing." />
+<meta name="robots" content="noindex" />
+<link rel="icon" href="https://aspenacademymo.com/uplift-data/images/aspen-daycare-logo.png" />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600;9..144,700&family=Nunito+Sans:opsz,wght@6..12,400;6..12,600;6..12,800&display=swap" rel="stylesheet" />
+<style>
+:root{
+  --green:#2e7d4f; --green-d:#1f5c39; --gold:#f2a93b; --gold-d:#c9871f;
+  --cream:#fbf7ef; --white:#ffffff; --ink:#22302b; --slate:#556059;
+  --line:#e7ded0; --alert:#e08a2b; --alert-bg:#fdf2e2; --red:#b1442f; --red-bg:#f8e7e2;
+  --sans:"Nunito Sans",system-ui,-apple-system,Segoe UI,Roboto,sans-serif;
+  --disp:"Fraunces",Georgia,"Times New Roman",serif;
+  --wrap:1080px;
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;background:var(--cream);color:var(--ink);font-family:var(--sans);line-height:1.6;-webkit-font-smoothing:antialiased}
+h1,h2,h3{font-family:var(--disp);font-weight:600;line-height:1.12;text-wrap:balance;margin:0 0 .35em}
+h1{font-size:clamp(2.2rem,6vw,4rem);letter-spacing:-.015em;font-weight:700}
+h2{font-size:clamp(1.7rem,4vw,2.7rem)}
+h3{font-size:1.22rem}
+p{margin:0 0 1rem}
+img{max-width:100%;display:block}
+a{color:var(--green-d)}
+.wrap{max-width:var(--wrap);margin:0 auto;padding-inline:22px}
+.narrow{max-width:760px}
+.band{padding-block:clamp(56px,9vw,100px)}
+.band-cream{background:var(--cream)}
+.band-white{background:var(--white)}
+.band-green{background:linear-gradient(160deg,var(--green-d),var(--green));color:#fff}
+.band-green h2,.band-green h1,.band-green h3{color:#fff}
+.band-ink{background:var(--ink);color:#eef3ef}
+.band-ink h2,.band-ink h3{color:#fff}
+.eyebrow{font-family:var(--sans);text-transform:uppercase;letter-spacing:.16em;font-weight:800;font-size:.78rem;color:var(--gold-d);margin:0 0 .8rem}
+.band-green .eyebrow,.band-ink .eyebrow{color:#ffd98a}
+.lead{font-size:clamp(1.08rem,2.2vw,1.32rem);color:var(--slate);max-width:62ch}
+.band-green .lead,.band-ink .lead{color:#e7f1ea}
+.reveal{opacity:0;transform:translateY(14px);transition:opacity .7s ease,transform .7s ease}
+.reveal.in{opacity:1;transform:none}
+@media(prefers-reduced-motion:reduce){.js .reveal{opacity:1;transform:none;transition:none}}
+html:not(.js) .reveal{opacity:1;transform:none}
+html.js .reveal{opacity:0;transform:translateY(14px)}
+html.js .reveal.in{opacity:1;transform:none}
+
+.topbar{background:var(--ink);color:#dfe7e2;font-size:.82rem}
+.topbar .wrap{display:flex;justify-content:space-between;align-items:center;gap:14px;padding-block:10px;flex-wrap:wrap}
+.topbar strong{color:#fff}
+
+.hero{position:relative;color:#fff;background:linear-gradient(165deg,rgba(31,92,57,.90),rgba(34,48,43,.86)),url('https://aspenacademymo.com/uplift-data/images/banners/now-open.jpg') center/cover no-repeat}
+.hero .wrap{padding-block:clamp(70px,12vw,128px)}
+.hero h1{color:#fff;max-width:17ch}
+.hero p{color:#eaf2ec;font-size:clamp(1.15rem,2.4vw,1.5rem);max-width:46ch}
+.badge5{display:inline-flex;align-items:center;gap:.6rem;background:rgba(255,255,255,.14);border:1px solid rgba(255,255,255,.3);border-radius:999px;padding:.5rem 1rem;font-weight:800;margin-bottom:20px;backdrop-filter:blur(4px)}
+.badge5 .stars{color:#ffd15a;letter-spacing:2px}
+
+.stats{display:grid;gap:20px;grid-template-columns:1fr;margin-top:30px}
+@media(min-width:720px){.stats{grid-template-columns:repeat(3,1fr)}}
+.stat{background:var(--white);border:1px solid var(--line);border-radius:18px;padding:26px}
+.band-green .stat{background:rgba(255,255,255,.10);border-color:rgba(255,255,255,.2)}
+.stat .n{font-family:var(--disp);font-weight:700;font-size:2.5rem;line-height:1;color:var(--green)}
+.band-green .stat .n{color:#fff}
+.stat .l{color:var(--slate);font-weight:600;margin-top:.4rem}
+.band-green .stat .l{color:#dfeee6}
+
+.split{display:grid;gap:34px;align-items:center;grid-template-columns:1fr}
+@media(min-width:860px){.split{grid-template-columns:1.05fr .95fr}}
+.split img{border-radius:20px;width:100%;height:100%;max-height:420px;object-fit:cover}
+
+.pack{list-style:none;margin:22px 0 0;padding:0;display:flex;flex-direction:column;gap:10px;max-width:640px}
+.prow{display:grid;grid-template-columns:34px 1fr auto;gap:14px;align-items:center;background:var(--white);border:1px solid var(--line);border-radius:14px;padding:14px 16px}
+.prow .r{width:30px;height:30px;border-radius:50%;display:grid;place-items:center;font-weight:800;background:#e9f1ec;color:var(--green-d)}
+.prow .nm{font-weight:800}.prow .rv{font-weight:700;color:var(--slate);white-space:nowrap}.prow .rv b{color:var(--ink)}
+.prow.you{border:2px solid var(--gold);background:var(--alert-bg)}.prow.you .r{background:var(--gold);color:#fff}
+
+.bars{display:flex;flex-direction:column;gap:16px;max-width:640px;margin-top:24px}
+.bar{display:grid;grid-template-columns:130px 1fr;gap:14px;align-items:center}
+.bar .lab{font-weight:800}.bar .lab small{display:block;font-weight:600;color:var(--slate);font-size:.8rem}
+.band-green .bar .lab small{color:#cfe3d7}
+.track{background:rgba(255,255,255,.18);border-radius:999px;height:30px;overflow:hidden}
+.fill{height:100%;border-radius:999px;display:flex;align-items:center;justify-content:flex-end;padding-right:12px;color:#fff;font-weight:800}
+.fill.big{background:#fff;color:var(--green-d)}.fill.mid{background:#bfe0cc;color:var(--green-d)}.fill.you{background:var(--gold)}
+
+.offer{display:grid;gap:20px;grid-template-columns:1fr;margin-top:34px}
+@media(min-width:680px){.offer{grid-template-columns:1fr 1fr}}
+.ocard{background:var(--white);border:1px solid var(--line);border-radius:18px;padding:26px;color:var(--ink)}
+.ocard .ic{width:46px;height:46px;border-radius:12px;background:#e9f1ec;display:grid;place-items:center;font-size:1.4rem;margin-bottom:14px}
+.ocard h3{margin:0 0 .3rem}.ocard p{color:var(--slate);margin:0}
+.ocard.feature{grid-column:1/-1;background:linear-gradient(150deg,#fff,#f3f8f4);border-color:#cfe3d7}
+@media(min-width:680px){.ocard.feature{display:grid;grid-template-columns:auto 1fr;gap:20px;align-items:center}}
+.ocard.feature .ic{width:58px;height:58px;font-size:1.8rem;margin:0}
+.tagfree{display:inline-block;background:var(--green);color:#fff;font-size:.72rem;font-weight:800;padding:.2rem .6rem;border-radius:999px;letter-spacing:.04em;margin-left:8px;vertical-align:middle}
+
+/* comparison */
+.cmp{margin-top:34px;border:1px solid var(--line);border-radius:18px;overflow:hidden;background:var(--white)}
+.cmp .row{display:grid;grid-template-columns:1fr;border-top:1px solid var(--line)}
+@media(min-width:760px){.cmp .row{grid-template-columns:1.1fr 1fr 1fr}}
+.cmp .row:first-child{border-top:0}
+.cmp .cell{padding:16px 18px}
+.cmp .h{font-family:var(--disp);font-weight:700;font-size:1.05rem;background:var(--cream)}
+.cmp .them{background:var(--red-bg);color:#7a3325}
+.cmp .us{background:#eaf3ee;color:var(--green-d);font-weight:700}
+.cmp .lbl{font-weight:800;color:var(--slate)}
+.cmp .them .x::before{content:"✕ ";font-weight:800}
+.cmp .us .c::before{content:"✓ ";font-weight:800}
+@media(max-width:759px){.cmp .them::before{content:"Most agencies: ";font-weight:800}.cmp .us::before{content:"Fight Forward: ";font-weight:800}}
+
+/* quotes */
+.quotes{display:grid;gap:20px;grid-template-columns:1fr;margin-top:32px}
+@media(min-width:720px){.quotes{grid-template-columns:1fr 1fr}}
+.q{background:var(--white);border:1px solid var(--line);border-left:4px solid var(--red);border-radius:14px;padding:22px}
+.q p{font-size:1.02rem;color:var(--ink);margin:0 0 .7rem}
+.q .amt{font-family:var(--disp);font-weight:700;color:var(--red);font-size:1.1rem}
+.q cite{display:block;color:var(--slate);font-style:normal;font-size:.85rem;margin-top:.5rem}
+.q cite a{color:var(--slate)}
+.q.empathy{border-left-color:var(--gold)}
+.q.empathy .amt{color:var(--gold-d)}
+
+/* pricing */
+.prices{display:grid;gap:22px;grid-template-columns:1fr;margin-top:36px;align-items:stretch}
+@media(min-width:820px){.prices{grid-template-columns:repeat(3,1fr)}}
+.pcard{background:var(--white);border:1px solid var(--line);border-radius:20px;padding:28px;display:flex;flex-direction:column;color:var(--ink)}
+.pcard.best{border:2px solid var(--gold);box-shadow:0 14px 40px rgba(31,92,57,.16);position:relative}
+.pcard.best::before{content:"Best value";position:absolute;top:-13px;left:50%;transform:translateX(-50%);background:var(--gold);color:var(--ink);font-weight:800;font-size:.74rem;letter-spacing:.05em;text-transform:uppercase;padding:.3rem .9rem;border-radius:999px}
+.pcard .kicker{font-weight:800;color:var(--slate);text-transform:uppercase;letter-spacing:.1em;font-size:.74rem}
+.pcard .price{font-family:var(--disp);font-weight:700;font-size:2.6rem;line-height:1.05;margin:.3rem 0 .1rem}
+.pcard .per{color:var(--slate);font-weight:700;font-size:.95rem}
+.pcard ul{list-style:none;margin:16px 0 0;padding:0;display:flex;flex-direction:column;gap:9px}
+.pcard li{padding-left:26px;position:relative;color:var(--slate)}
+.pcard li::before{content:"✓";position:absolute;left:0;color:var(--green);font-weight:800}
+.pcard .save{margin-top:14px;background:#eaf3ee;color:var(--green-d);font-weight:800;border-radius:10px;padding:10px 12px;text-align:center}
+.pcard .foothint{margin-top:14px;color:var(--slate);font-size:.85rem}
+
+.steps{display:grid;gap:22px;grid-template-columns:1fr;margin-top:34px}
+@media(min-width:760px){.steps{grid-template-columns:repeat(3,1fr)}}
+.step .num{font-family:var(--disp);font-weight:700;font-size:2.4rem;color:var(--gold)}
+.step h3{margin:.2rem 0 .3rem}.step p{color:#dfeee6;margin:0}
+
+.btn{display:inline-flex;align-items:center;gap:.5rem;font-weight:800;text-decoration:none;padding:1rem 1.7rem;border-radius:999px;font-size:1.05rem}
+.btn-gold{background:var(--gold);color:var(--ink)}.btn-white{background:#fff;color:var(--green-d)}
+.cta-row{display:flex;flex-wrap:wrap;gap:14px;margin-top:26px}
+.foot{background:var(--ink);color:#9fb0aa;font-size:.85rem;text-align:center;padding-block:26px}
+.foot img{height:34px;width:auto;margin:0 auto 10px;opacity:.9;filter:brightness(0) invert(1)}
+.discln{color:var(--slate);font-size:.8rem;max-width:74ch}
+.band-green .discln,.band-ink .discln{color:#bcd3c7}
+.sources{font-size:.76rem;color:#8aa;line-height:1.7}
+.sources a{color:#9fb0aa}
+details.src{margin-top:18px}
+details.src summary{cursor:pointer;font-weight:700;color:#cfe3d7}
+</style>
+<script>document.documentElement.classList.add('js');</script>
+</head>
+<body>
+
+<div class="topbar"><div class="wrap"><span>A growth plan for <strong>Aspen Academy</strong></span><span>Prepared by <strong>Fight Forward Digital Marketing</strong></span></div></div>
+
+<header class="hero">
+  <div class="wrap">
+    <div class="badge5"><span class="stars">★★★★★</span> 5.0 rating on Google</div>
+    <h1>Wentzville's best-kept secret shouldn't be a secret.</h1>
+    <p>Families who find Aspen Academy love it. The problem is simple: most families never find you. Here's the plan to change that — and a fair way to pay for it.</p>
+  </div>
+</header>
+
+<!-- GOOD NEWS -->
+<section class="band band-white"><div class="wrap reveal">
+  <p class="eyebrow">First, the good news</p>
+  <h2>You already have the best reputation in town.</h2>
+  <p class="lead">Aspen Academy holds a perfect <strong>5.0-star rating</strong> on Google — higher than every other daycare in Wentzville. Your care isn't the problem. Being found is.</p>
+  <div class="stats">
+    <div class="stat"><div class="n">5.0★</div><div class="l">Your Google rating — highest of any Wentzville daycare</div></div>
+    <div class="stat"><div class="n">100%</div><div class="l">Of your reviewers gave you five stars</div></div>
+    <div class="stat"><div class="n">6:30a</div><div class="l">Open early, meals included, live parent cameras — real advantages</div></div>
+  </div>
+</div></section>
+
+<!-- PROBLEM -->
+<section class="band band-cream"><div class="wrap reveal">
+  <p class="eyebrow">Now, the hard truth</p>
+  <h2>When a Wentzville parent searches Google, they don't see you.</h2>
+  <p class="lead">Search &ldquo;daycare Wentzville MO&rdquo; today and Aspen shows up around <strong>#12 on the map</strong> — below centers rated lower than you. On the regular results page, you're not in the top 20. Parents call whoever they see first.</p>
+  <ul class="pack">
+    <li class="prow"><span class="r">1</span><span class="nm">The Nest Early Learning Center</span><span class="rv">5.0★ · <b>21 reviews</b></span></li>
+    <li class="prow"><span class="r">2</span><span class="nm">O2B Kids Wentzville</span><span class="rv">4.9★ · <b>36 reviews</b></span></li>
+    <li class="prow"><span class="r">3</span><span class="nm">Kids &rsquo;R&rsquo; Kids of Wentzville</span><span class="rv">4.4★ · <b>66 reviews</b></span></li>
+    <li class="prow you"><span class="r">12</span><span class="nm">Aspen Academy — that's you</span><span class="rv">5.0★ · <b>4 reviews</b></span></li>
+  </ul>
+  <p class="discln" style="margin-top:18px">Live from Google Maps, September 2026. The top spots aren't better daycares — they're just easier to find.</p>
+</div></section>
+
+<!-- WHY REVIEWS -->
+<section class="band band-green"><div class="wrap reveal">
+  <p class="eyebrow">Why this is happening</p>
+  <h2>It comes down to one thing: reviews.</h2>
+  <p class="lead">Google shows the daycares with the most reviews first. You earn five stars every time — you just haven't asked enough happy families to leave one. Four reviews versus dozens is the whole gap, and it's the easiest thing here to fix.</p>
+  <div class="bars">
+    <div class="bar"><span class="lab">Kids 'R' Kids<small>4.4★</small></span><div class="track"><div class="fill big" style="width:100%">66</div></div></div>
+    <div class="bar"><span class="lab">O2B Kids<small>4.9★</small></span><div class="track"><div class="fill mid" style="width:55%">36</div></div></div>
+    <div class="bar"><span class="lab">The Nest<small>5.0★</small></span><div class="track"><div class="fill mid" style="width:32%">21</div></div></div>
+    <div class="bar"><span class="lab">Aspen Academy<small>5.0★ — you</small></span><div class="track"><div class="fill you" style="width:7%">4</div></div></div>
+  </div>
+</div></section>
+
+<!-- CHILDCARE PAIN POINTS -->
+<section class="band band-white"><div class="wrap reveal">
+  <p class="eyebrow">Sound familiar?</p>
+  <h2>The pressures every daycare owner is feeling right now.</h2>
+  <p class="lead narrow">You didn't open a daycare to become a marketer. But the way parents find childcare has changed — and the old playbook isn't filling classrooms like it used to.</p>
+  <div class="offer">
+    <div class="ocard"><div class="ic">📰</div><h3>The old playbook stopped working</h3><p>Word of mouth, the parents' magazine ad, the flyer on the board — they just don't fill spots the way they did. One family daycare owner put it plainly: &ldquo;All her traditional means of advertising don't seem to be working anymore.&rdquo;</p></div>
+    <div class="ocard"><div class="ic">🪑</div><h3>Empty slots are lost income — every month</h3><p>An open spot isn't just a quiet room; it's tuition you never get back. A handful of unfilled places is thousands of dollars walking to the daycare that showed up first on Google.</p></div>
+    <div class="ocard"><div class="ic">🧑‍🏫</div><h3>You're the director, the teacher, and the marketer</h3><p>There's no time to chase Google rankings, chase reviews, and answer the phone while you're caring for kids. Owners who try it themselves stall out — one described a month of effort as just &ldquo;6 clicks and 2.1k impressions.&rdquo;</p></div>
+    <div class="ocard"><div class="ic">📵</div><h3>Working parents call during your busiest hours</h3><p>Parents research and call mid-morning and after bedtime. If no one picks up, they don't leave a message — they call the next daycare on the list. Missed calls are missed enrollments.</p></div>
+  </div>
+  <p class="discln" style="margin-top:18px">Owner quotes from real childcare discussions on <a href="https://www.reddit.com/r/smallbusiness/comments/1ndnrne/how_do_i_help_my_mom_with_her_business_childcare/">r/smallbusiness</a> and <a href="https://www.reddit.com/r/smallbusiness/comments/1j5mg1w/struggling_to_drive_traffic_to_my_new_daycare/">r/smallbusiness</a>.</p>
+</div></section>
+
+<!-- THE GAME / COSTS + CLAIMS -->
+<section class="band band-white"><div class="wrap reveal">
+  <p class="eyebrow">Before you hire anyone</p>
+  <h2>What most marketing agencies charge — and quietly promise.</h2>
+  <p class="lead narrow">We're not here to bad-mouth anyone; plenty of agencies do good work. But you deserve to know how the industry usually runs before you sign anything.</p>
+  <div class="stats">
+    <div class="stat"><div class="n">$2,917</div><div class="l">Average monthly SEO retainer — and 78% of agencies bill you every month (Ahrefs)</div></div>
+    <div class="stat"><div class="n">6–12 mo</div><div class="l">Typical lock-in contract, often auto-renewing (SEO Sherpa)</div></div>
+    <div class="stat"><div class="n">$5k–$10k</div><div class="l">Typical cost of a quality, SEO-ready website from an agency (WebFX)</div></div>
+  </div>
+  <p class="lead narrow" style="margin-top:34px"><strong>And the promise you'll hear most?</strong> &ldquo;We'll get you to #1 on Google.&rdquo; Here's the thing — <em>nobody can promise that.</em> Google says so in its own words:</p>
+  <blockquote style="margin:0;border-left:4px solid var(--green);background:#eef5f0;padding:18px 22px;border-radius:0 12px 12px 0;max-width:720px">
+    <p style="font-size:1.15rem;font-family:var(--disp);margin:0">&ldquo;No one can guarantee a #1 ranking on Google.&rdquo;</p>
+    <cite style="color:var(--slate);font-size:.85rem">— Google Search Central, official documentation</cite>
+  </blockquote>
+</div></section>
+
+<!-- REDDIT STORIES -->
+<section class="band band-cream"><div class="wrap reveal">
+  <p class="eyebrow">Real owners. Real money. Real regret.</p>
+  <h2>What happens too often when small businesses trust the wrong agency.</h2>
+  <p class="lead narrow">These are real small-business owners, in their own words, on Reddit. We show them not to scare you — but so you know exactly what we're promising <em>not</em> to do.</p>
+  <div class="quotes">
+    <div class="q">
+      <p class="amt">≈ $6,000 / year</p>
+      <p>&ldquo;To see my agency spend $500/month ($6,000) per year for no major work really grinds my gears.&rdquo;</p>
+      <cite>Physical-therapy clinic owner · <a href="https://www.reddit.com/r/PPC/comments/1ox0l5u/is_my_google_ads_agency_scamming_me/">r/PPC</a></cite>
+    </div>
+    <div class="q">
+      <p class="amt">$2,400 charged after cancelling</p>
+      <p>&ldquo;The backlinks they were getting for me were DA 1-3… then I just got eight $300 charges from them. It's been a terrible waste of money.&rdquo;</p>
+      <cite>Small-business owner · <a href="https://www.reddit.com/r/SEO/comments/1u19tyb/do_seo_agencies_ever_do_harmful_things_to_clients/">r/SEO</a></cite>
+    </div>
+    <div class="q">
+      <p class="amt">The auto-renew trap</p>
+      <p>&ldquo;The contract rolls over for another 12 months unless you cancel in writing 60–90 days before it ends. Miss it by one day, congrats, you own another year.&rdquo;</p>
+      <cite>Small-business contract auditor · <a href="https://www.reddit.com/r/smallbusiness/comments/1w91j1j/i_audit_contracts_for_small_businesses_the_stuff/">r/smallbusiness</a></cite>
+    </div>
+    <div class="q">
+      <p class="amt">The feeling owners describe most</p>
+      <p>&ldquo;A lot of these conversations left me feeling like I was talking to salespeople rather than the people who would actually be doing the work.&rdquo;</p>
+      <cite>Owner comparing SEO agencies · <a href="https://www.reddit.com/r/smallbusiness/comments/1twr39i/seriously_is_95_of_the_seo_agency_world_just_a/">r/smallbusiness</a></cite>
+    </div>
+  </div>
+</div></section>
+
+<!-- WHAT YOU GET -->
+<section class="band band-white"><div class="wrap reveal">
+  <p class="eyebrow">What you get with Fight Forward</p>
+  <h2>Everything to get found — plus two things nobody else includes.</h2>
+  <div class="offer">
+    <div class="ocard feature">
+      <div class="ic">📞</div>
+      <div><h3>A 24/7 AI voice agent <span class="tagfree">Included free</span></h3>
+      <p>Never miss another parent. Your voice agent answers every call day or night, answers questions about hours, ages, meals and camera access, and books tours straight into your calendar — even while your staff are with the kids.</p></div>
+    </div>
+    <div class="ocard feature">
+      <div class="ic">🛡️</div>
+      <div><h3>Unlimited managed tech support (MSP) <span class="tagfree">Included free</span></h3>
+      <p>Your computers, wifi, parent cameras, check-in system and security — all handled, monitored, and kept running. Unlimited support with no per-call or per-ticket fees. Something breaks, you call us. That's it.</p></div>
+    </div>
+    <div class="ocard"><div class="ic">🔎</div><h3>Get found on Google</h3><p>We claim and polish your Google profile so Aspen climbs into the top of the map for local parents.</p></div>
+    <div class="ocard"><div class="ic">⭐</div><h3>Turn happy parents into 5-star reviews</h3><p>A simple, automatic way to invite families to review you — so your review count catches and passes the competition.</p></div>
+    <div class="ocard"><div class="ic">💻</div><h3>A brand-new website that fills tours</h3><p>Fast, friendly, built to turn a visitor into a booked tour. Already built and ready for your approval.</p></div>
+    <div class="ocard"><div class="ic">📈</div><h3>Plain-English reporting</h3><p>Calls, tours, reviews and rankings — no vanity metrics, no jargon. You always know what you're paying for.</p></div>
+  </div>
+</div></section>
+
+<!-- COMPARISON -->
+<section class="band band-cream"><div class="wrap reveal">
+  <p class="eyebrow">The difference, side by side</p>
+  <h2>Same goal. A completely different deal.</h2>
+  <div class="cmp">
+    <div class="row"><div class="cell h">&nbsp;</div><div class="cell h them">Most agencies</div><div class="cell h us">Fight Forward</div></div>
+    <div class="row"><div class="cell lbl">Contract</div><div class="cell them"><span class="x">6–12 month lock-in, auto-renews</span></div><div class="cell us"><span class="c">Month-to-month, cancel anytime</span></div></div>
+    <div class="row"><div class="cell lbl">Monthly price</div><div class="cell them"><span class="x">$1,000–$3,000+ (avg $2,917)</span></div><div class="cell us"><span class="c">Name your price — floor $400</span></div></div>
+    <div class="row"><div class="cell lbl">Quality SEO-ready website</div><div class="cell them"><span class="x">$5,000–$10,000 to build</span></div><div class="cell us"><span class="c">$1,500 — or free when you pay yearly</span></div></div>
+    <div class="row"><div class="cell lbl">Promises</div><div class="cell them"><span class="x">&ldquo;#1 on Google, guaranteed&rdquo;</span></div><div class="cell us"><span class="c">Honest goals — no fake guarantees</span></div></div>
+    <div class="row"><div class="cell lbl">Reporting</div><div class="cell them"><span class="x">Impressions &amp; vanity metrics</span></div><div class="cell us"><span class="c">Calls, tours &amp; reviews, in plain English</span></div></div>
+    <div class="row"><div class="cell lbl">Your accounts &amp; data</div><div class="cell them"><span class="x">They own them — you leave with nothing</span></div><div class="cell us"><span class="c">You own everything, always</span></div></div>
+    <div class="row"><div class="cell lbl">Voice agent + tech support</div><div class="cell them"><span class="x">Extra, or not offered</span></div><div class="cell us"><span class="c">Included free</span></div></div>
+  </div>
+</div></section>
+
+<!-- PRICING -->
+<section class="band band-white"><div class="wrap reveal">
+  <p class="eyebrow">Your investment</p>
+  <h2>Name your own price. Start at $400 a month.</h2>
+  <p class="lead narrow">One fair number, no contract. Everything above is included at every price — the more you invest above the floor, the more we pour into growth. You're always in control.</p>
+  <div class="prices">
+    <div class="pcard">
+      <span class="kicker">Month to month</span>
+      <div class="price">$400<span class="per">/mo</span></div>
+      <div class="per">Name your price · $400 minimum</div>
+      <ul>
+        <li>Free 24/7 AI voice agent</li>
+        <li>Unlimited managed tech support</li>
+        <li>Google, reviews &amp; local SEO</li>
+        <li>Hosting, security &amp; reporting</li>
+        <li>No contract — cancel anytime</li>
+      </ul>
+      <div class="foothint">Website rebuild added separately (see middle).</div>
+    </div>
+    <div class="pcard">
+      <span class="kicker">The website</span>
+      <div class="price">$1,500</div>
+      <div class="per">One-time · or $125/mo for 12 months</div>
+      <ul>
+        <li>Brand-new, fast, mobile-first site</li>
+        <li>Built to turn visitors into tours</li>
+        <li>Your real photos &amp; camera/meals/security featured</li>
+        <li>Google-ready structure &amp; AI-search setup</li>
+        <li>Spread it interest-free over a year</li>
+      </ul>
+      <div class="foothint">Agencies charge <strong>$5,000–$10,000</strong> for a build like this. Yours is already built — ready for your approval.</div>
+    </div>
+    <div class="pcard best">
+      <span class="kicker">Pay yearly</span>
+      <div class="price">$4,000<span class="per">/year</span></div>
+      <div class="per">Everything, paid up front</div>
+      <ul>
+        <li>A full year of everything above</li>
+        <li><strong>2 months free</strong> (would be $4,800)</li>
+        <li><strong>Website rebuild included free</strong> ($1,500 value)</li>
+        <li>Free voice agent + unlimited tech support</li>
+        <li>Still no contract — just better value</li>
+      </ul>
+      <div class="save">You save $2,300 in year one</div>
+    </div>
+  </div>
+  <p class="discln" style="margin-top:22px">Pricing set by Fight Forward Digital Marketing. Competitor figures above are industry averages from cited public sources, not quotes for any specific company.</p>
+</div></section>
+
+<!-- 90 DAYS -->
+<section class="band band-ink"><div class="wrap reveal">
+  <p class="eyebrow">Your first 90 days</p>
+  <h2>A clear path, start to finish.</h2>
+  <div class="steps">
+    <div class="step"><div class="num">1</div><h3>Weeks 1–2 · Get set up</h3><p>Launch your new website, claim and complete your Google profile, and turn on your voice agent so no call is missed.</p></div>
+    <div class="step"><div class="num">2</div><h3>Weeks 3–8 · Build momentum</h3><p>Start climbing the map as five-star reviews roll in from your happy families.</p></div>
+    <div class="step"><div class="num">3</div><h3>Weeks 9–12 · Pull ahead</h3><p>Add local content, keep reviews coming, and move into the results parents actually see.</p></div>
+  </div>
+</div></section>
+
+<!-- CTA -->
+<section class="band band-green"><div class="wrap reveal" style="text-align:center">
+  <p class="eyebrow">Let's begin</p>
+  <h2 style="max-width:20ch;margin-inline:auto">Let's get Aspen the attention it's already earned.</h2>
+  <p class="lead" style="margin:0 auto">You've built a five-star daycare. Now let's make sure every searching parent in Wentzville knows it — with no contract, and nothing to lose.</p>
+  <div class="cta-row" style="justify-content:center">
+    <a class="btn btn-gold" href="https://fightforwarddigital.com">Start with Fight Forward</a>
+    <a class="btn btn-white" href="tel:+16363982990">Talk it through</a>
+  </div>
+</div></section>
+
+<footer class="foot"><div class="wrap">
+  <img src="https://aspenacademymo.com/uplift-data/images/aspen-daycare-logo.png" alt="Aspen Academy" />
+  <p>Prepared for Aspen Academy · 740 Welker Parkway, Wentzville, MO 63385 · by Fight Forward Digital Marketing</p>
+  <p class="discln" style="margin-inline:auto">Aspen's rating, ranking and search figures are live Google Maps &amp; DataForSEO data, September 2026, and change over time. Industry cost figures and quotes are from the public sources below.</p>
+  <details class="src"><summary>Sources</summary>
+    <p class="sources">
+      Avg SEO retainer &amp; 78% monthly billing: <a href="https://ahrefs.com/blog/seo-pricing">Ahrefs SEO pricing survey</a> ·
+      SEO price bands: <a href="https://backlinko.com/seo-pricing">Backlinko</a> ·
+      Local SEO &amp; small-business website cost: <a href="https://www.webfx.com/local-seo/pricing/">WebFX local SEO</a>, <a href="https://www.webfx.com/blog/web-design/how-much-does-it-cost-to-build-a-website-for-a-small-business/">WebFX web design cost</a> ·
+      Contract length: <a href="https://seosherpa.com/seo-contract-length/">SEO Sherpa</a> ·
+      Ranking guarantees: <a href="https://developers.google.com/search/docs/fundamentals/do-i-need-seo">Google Search Central</a> ·
+      Why clients leave agencies: <a href="https://setup.us/blog/why-do-clients-end-agency-relationships-8-years-of-surveys-point-to-a-clear-pattern">Setup / CMO Institute survey</a> ·
+      Owner quotes: <a href="https://www.reddit.com/r/PPC/comments/1ox0l5u/is_my_google_ads_agency_scamming_me/">r/PPC</a>,
+      <a href="https://www.reddit.com/r/SEO/comments/1u19tyb/do_seo_agencies_ever_do_harmful_things_to_clients/">r/SEO</a>,
+      <a href="https://www.reddit.com/r/smallbusiness/comments/1w91j1j/i_audit_contracts_for_small_businesses_the_stuff/">r/smallbusiness (contracts)</a>,
+      <a href="https://www.reddit.com/r/smallbusiness/comments/1ndnrne/how_do_i_help_my_mom_with_her_business_childcare/">r/smallbusiness (daycare)</a>.
+    </p>
+  </details>
+</div></footer>
+
+<script>
+(function(){
+  var els=document.querySelectorAll('.reveal');
+  if(!('IntersectionObserver'in window)){els.forEach(function(e){e.classList.add('in')});return;}
+  var io=new IntersectionObserver(function(en){en.forEach(function(x){if(x.isIntersecting){x.target.classList.add('in');io.unobserve(x.target);}})},{threshold:.12});
+  els.forEach(function(e){io.observe(e)});
+})();
+</script>
+</body>
+</html>
