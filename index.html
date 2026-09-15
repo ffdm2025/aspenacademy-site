@@ -81,9 +81,16 @@ a{color:inherit}
 .deeper a{color:var(--green-d);font-weight:800}
 .foot{background:var(--ink);color:#9fb0aa;font-size:.8rem;text-align:center;padding-block:22px}
 .foot img{height:30px;width:auto;margin:0 auto 8px;opacity:.9;filter:brightness(0) invert(1)}
+.fab{position:fixed;top:50%;right:0;transform:translateY(-50%);z-index:60;display:flex;flex-direction:column;align-items:center;gap:2px;text-decoration:none;background:var(--gold);color:var(--ink);font-weight:800;font-size:.9rem;line-height:1.15;padding:.85rem 1rem;border-radius:14px 0 0 14px;box-shadow:0 10px 26px rgba(34,48,43,.30);transition:background .15s,padding .15s}
+.fab:hover{background:var(--gold-d);color:#fff}
+.fab .k{font-weight:800;font-size:.66rem;text-transform:uppercase;letter-spacing:.08em;color:var(--green-d)}
+.fab:hover .k{color:#ffe9c2}
+.fab .m{white-space:nowrap}
+@media(max-width:640px){.fab{top:auto;bottom:16px;right:16px;transform:none;flex-direction:row;gap:.4rem;border-radius:999px;padding:.7rem 1.05rem;font-size:.85rem;box-shadow:0 8px 20px rgba(34,48,43,.32)}.fab .k{display:none}}
 </style>
 </head>
 <body>
+<a class="fab" href="full/" aria-label="See the full breakdown"><span class="k">See the</span><span class="m">Full breakdown &rarr;</span></a>
 <div class="topbar"><div class="wrap"><span>Prepared for <strong>Madeline &amp; the Aspen Academy team</strong></span><span>by <strong>Fight Forward Digital Marketing</strong></span></div></div>
 
 <header class="hero"><div class="wrap">
